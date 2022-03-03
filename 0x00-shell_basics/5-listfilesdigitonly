@@ -1,2 +1,2 @@
 #!/bin/bash
-/lib ls -la
+/lib ls -l
