@@ -1,2 +1,2 @@
 #!/bin/bash
-/lib ls -l
+ls -lna
