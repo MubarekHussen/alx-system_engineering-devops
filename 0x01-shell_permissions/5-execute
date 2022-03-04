@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x $(pwd)/./hello/
+chmod +x /0x01-shell_permissions/hello/
