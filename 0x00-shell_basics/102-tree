@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdidr -v {welcome,welcome/to,welcome/to/school}
+mkdidr -p welcome/to/school
