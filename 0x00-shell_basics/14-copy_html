@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq cp -R *.html $(pwd)/../
+cp -R *.html $(pwd)/../
