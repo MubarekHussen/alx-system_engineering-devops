@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 555 $(pwd)/hello
+chmod 751 $(pwd)/hello
