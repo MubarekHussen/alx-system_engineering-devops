@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdidr -p /tmp{welcome/,welcome/to/,welcome/to/school}
+mkdidr -v {welcome/,welcome/to/,welcome/to/school}
