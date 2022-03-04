@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +=x $(pwd)/hello
+chmod -R 751 $(pwd)/hello
