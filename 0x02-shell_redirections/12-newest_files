@@ -1,2 +1,3 @@
 #!/bin/bash
-ls tail | sort | pr
+ls -t | head -n10
+
