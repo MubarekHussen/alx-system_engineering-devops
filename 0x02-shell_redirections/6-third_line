@@ -57,3 +57,6 @@ head -n 3 iacta | tail -n + 3
 ~
 6-third_line[+] [unix] (14:45 08/03/2022)                                                     1,1 All
 -- IN
+=======
+head -3 iacta | tail -1
+>>>>>>> 80cb2fd7e2348d821ad84ce0f5e847dce83fa135
