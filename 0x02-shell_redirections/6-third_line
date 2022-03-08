@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{if(NR==LINE_NUMBER) print $0}' iacta.txt
+awk '{if(NR==2) print $0}' iacta
