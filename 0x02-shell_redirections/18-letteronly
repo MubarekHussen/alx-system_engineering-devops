@@ -1,2 +1,2 @@
 #!/bin/bash
-greap i "a \*" /etc/ssh/sshd_config
+grep ^[[:alpha:]] testfile /etc/ssh/sshd_config
