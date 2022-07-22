@@ -2,7 +2,7 @@
 # This script prints files in  current dir
 
 
-for i in *
+for i in *;
 do
     echo "$i" | cut -d'-' -f2
 done
