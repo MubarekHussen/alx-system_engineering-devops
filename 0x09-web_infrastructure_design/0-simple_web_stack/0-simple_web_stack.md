@@ -10,7 +10,10 @@
 
 	Domain Names are host names that the Domain Name System (DNS) uses to
 	identify and map to websites and other Internet Protocol (IP) resources.
-## 3. 
+## 3. What type of DNS record www is in www.foobar.com
+
+	The "A" stands for "address" and this is the most fundamental type of DNS record: it
+	indicates the IP address of a given domain.
 
 ## 4. What is the role of the web server ?
 
