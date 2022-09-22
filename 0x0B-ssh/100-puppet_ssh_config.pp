@@ -1,5 +1,12 @@
-# puppet ssh configuration
-exec { 'ssh_config':
-  path    => '/bin',
-  command => 'echo "PasswordAuthentication no" >> /etc/ssh/ssh_config; echo "IdentityFile ~/.ssh/holberton" >> /etc/ssh/ssh_config',
+# configures server connection without password, also connects using holberton
+
+file_line { 'PasswordAuthentication':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => 'PasswordAuthentication no',
+}
+file_line { 'IdentityFile':
+  ensure => 'present',
+  path   => '/etc/ssh/ssh_config',
+  line   => 'IdentityFile ~/.ssh/school'
 }
